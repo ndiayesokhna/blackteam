@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo span{
+    color: #2eca6a;
+}
+
+.logo{
+    font-size: 30px;
+}
+
+nav{
+    font-size: 20px;
+    font-weight: bold;
+    height: 100px;
+    background-color: white;
+}
+.col{
+height: 600px;
+}
+
+.col1 .card{
+    background: url(images/property-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.col2 .card{
+    background: url(images/property-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.col3 .card{
+    background: url(images/property-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.col4 .card{
+    background: url(images/property-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.col5 .card{
+    background: url(images/property-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.col6 .card{
+    background: url(images/property-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.social-icons{
+    display: inline-flex;
+    
+    gap: 20px;
+}
+
+.ba{
+    position: relative;
+}
+
+hr{
+    height: 7px;
+    width: 100px;
+    background-color: green;
+}

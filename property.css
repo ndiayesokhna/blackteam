@@ -1,0 +1,190 @@
+Impossible de créer, modifier ou importer … Espace de stockage insuffisant. Obtenez plus d'espace maintenant ou supprimez des fichiers de Drive, Google Photos ou Gmail.
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 200px;
+    height: 1500px;
+  overflow-x: hidden;
+}
+.logo span{
+  color: #2eca6a;
+}
+
+.logo{
+  font-size: 30px;
+}
+
+nav{
+  font-size: 20px;
+  font-weight: bold;
+  height: 100px;
+  background-color: white;
+}
+.property-grid .container .title{
+  border-left: 5px solid #2eca6a;
+  padding: 5px;
+  padding-left: 20px;
+}
+ .property-grid .container .right{
+  position: relative;
+  top: -135px;
+}
+.property-grid .container .right p{
+  font-size: 21px;
+  color: rgba(0, 0, 0, 0.692);
+  font-family: 'Roboto', sans-serif;
+}
+.property-grid .container .right span{
+  color: black;
+}
+.property-grid .container .title h1{
+font-size: 50px;
+font-weight: 700;
+}
+.property-grid .container .title h6{
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: #313131b1;
+}
+  .card-box-a,
+  .card-box-b,
+  .card-box-d {
+    position: relative;
+    overflow: hidden;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+.card-body-a a{
+text-decoration: none;
+color: #fff;
+font-family: 'Roboto', sans-serif;
+}
+  .card-overlay-a-content {
+    transition: all 0.5s ease-in;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    z-index: 2;
+  }
+   
+  .card-header-a {
+    padding: 0 1rem;
+  }
+  
+  .card-header-a .card-title-a {
+    color: #ffffff;
+    margin-bottom: 0;
+    padding-bottom: 0.7rem;
+  }
+  
+  .card-header-a .card-title-a a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .card-body-a {
+    z-index: 2;
+    transition: all 0.5s ease-in;
+    padding: 0rem 1rem 2rem 1rem;
+  }
+  
+  .price-a {
+    color: #ffffff;
+    padding: 0.6rem 0.8rem;
+    border: 2px solid #2eca6a;
+    border-radius: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  
+  .card-footer-a {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    background-color: #2eca6a;
+  }
+  
+  .card-info {
+    list-style: none;
+    margin-bottom: 0;
+    padding: 0.5rem 0;
+  }
+  
+  .card-info .card-info-title {
+    font-size: 1rem;
+    color: #313131;
+  }
+ 
+  .card-info li span {
+    color: #ffffff;
+    font-size: 0.9rem;
+  }
+  
+  .property-grid .grid-option {
+    text-align: right;
+    margin-bottom: 2rem;
+  }
+  
+  .property-grid .grid-option .custom-select {
+    border-radius: 3px;
+    width: 220px;
+    padding: 4px;
+    border-color: #313131;
+  }
+  
+    .card-box-a:hover .card-overlay-a-content {
+      bottom: 60px;
+    }
+ 
+
+
+    pagination-a .pagination .page-link {
+      margin: 0 0.2rem;
+      border-color: transparent;
+      padding: 0.5rem 0.8rem;
+      color: #000000;
+    }
+    
+    .pagination-a .pagination .page-link:hover,
+    .pagination-a .pagination .page-link:active,
+    .pagination-a .pagination .page-link:focus {
+      background-color: #2eca6a;
+    }
+    
+    .pagination-a .pagination .page-link span {
+      font-size: 1.2rem;
+    }
+    
+    .pagination-a .pagination .next .page-link {
+      padding: 0.4rem 0.9rem;
+    }
+    
+    .pagination-a .pagination .page-item:last-child .page-link {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+    
+    .pagination-a .pagination .page-item:first-child .page-link {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+    
+    .pagination-a .pagination .page-item.disabled .page-link {
+      padding: 0.4rem 0.9rem;
+      color: #555555;
+    }
+    
+    .pagination-a .pagination .page-item.active .page-link {
+      background-color: #2eca6a;
+    }
+    
+    
+    .pagination-a {
+      text-decoration: none;
+    }
